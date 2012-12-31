@@ -19,3 +19,6 @@ set laststatus=2
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set guifont=Lucida_Console:h11
 
+autocmd VimEnter * if !argc() | NERDTree | endif
+map <C-F12> :!ctags -R .<CR>
+
