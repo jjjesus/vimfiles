@@ -20,5 +20,9 @@ set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set guifont=Lucida_Console:h11
 
 autocmd VimEnter * if !argc() | NERDTree | endif
+autocmd BufEnter * silent! lcd %:p:h
+
 map <C-F12> :!ctags -R .<CR>
+map <C-F11> :TlistToggle<CR>
+map <C-F10> :NERDTreeToggle<CR>
 
