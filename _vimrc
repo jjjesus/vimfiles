@@ -25,4 +25,5 @@ autocmd BufEnter * silent! lcd %:p:h
 map <C-F12> :!ctags -R .<CR>
 map <C-F11> :TlistToggle<CR>
 map <C-F10> :NERDTreeToggle<CR>
+map <C-F9> :cw<CR>
 
