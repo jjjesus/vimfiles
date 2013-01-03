@@ -20,7 +20,8 @@ set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set guifont=Lucida_Console:h11
 
 autocmd VimEnter * if !argc() | NERDTree | endif
-autocmd BufEnter * silent! lcd %:p:h
+"autocmd BufEnter * silent! lcd %:p:h
+set autochdir
 
 set guioptions-=T "remove GUI toolbar icons
 
