@@ -1,5 +1,5 @@
-vimfiles
-========
+#vimfiles#
+
 
 Windows vimfiles.  
 
@@ -13,3 +13,11 @@ So, on windows, the tree is:
             autoload\
             bundle\
 
+
+#### Note on the Lua/Corona Snippets ####
+
+The VIM snippets for Lua/Corona were downloaded from:
+
+http://www.cutemachine.com/corona-sdk-tutorial/vim-snippets-for-corona-sdk-and-lua-development/
+
+A weakness (bug) with the SnipMate plugin in Windows is that you can't have multiple directories named _snippets_.  So, any additional snippets, like Lua, must be added into the bundle/snipmate/snippets directory (instead of ~/.vim/snippets), and, for now, are ignored by git.
