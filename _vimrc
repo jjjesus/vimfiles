@@ -1,4 +1,5 @@
 set nocompatible
+let mapleader = ","
 call pathogen#infect()
 call pathogen#helptags()
 filetype plugin indent on
@@ -31,3 +32,4 @@ map <C-F11> :TlistToggle<CR>
 map <C-F10> :NERDTreeToggle<CR>
 map <C-F9> :cw<CR>
 
+map <Leader>p "+gP 
