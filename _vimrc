@@ -31,6 +31,10 @@ map <C-F12> :!ctags -R .<CR>
 map <C-F11> :TlistToggle<CR>
 map <C-F10> :NERDTreeToggle<CR>
 map <C-F9> :cw<CR>
-map <C-F8> :TagbarToggle
+map <C-F8> :TagbarToggle<CR>
 
 map <Leader>p "+gP 
+
+map <Leader>j :tabprev<CR>
+map <Leader>k :tabnext<CR>
+
