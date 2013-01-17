@@ -21,3 +21,9 @@
 	path = bundle/snipmate
 	url = git@github.com:jjjesus/snipmate.vim.git
     ignore = untracked
+[submodule "bundle/vim-bufexplorer"]
+	path = bundle/vim-bufexplorer
+	url = git://github.com/thisivan/vim-bufexplorer.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
