@@ -24,6 +24,8 @@
 [submodule "bundle/vim-bufexplorer"]
 	path = bundle/vim-bufexplorer
 	url = git://github.com/thisivan/vim-bufexplorer.git
+    ignore = untracked
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+    ignore = untracked
