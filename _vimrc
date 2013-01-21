@@ -32,6 +32,7 @@ map <C-F11> :TlistToggle<CR>
 map <C-F10> :NERDTreeToggle<CR>
 map <C-F9> :cw<CR>
 map <C-F8> :TagbarToggle<CR>
+map <C-F7> :ccl<CR>
 
 map <Leader>p "+gP 
 
