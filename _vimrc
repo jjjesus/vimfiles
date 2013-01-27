@@ -11,8 +11,13 @@ if has('gui_running')
 else
     colorscheme desert
 endif
+'
 set ts=4
 set expandtab
+set shiftwidth=4
+set autoindent
+set smartindent
+'
 let loaded_matchparen = 1
 set tags=./tags;/
 "
